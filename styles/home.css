@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 
-img.background-img {
+img {
   width: 100%;
   position: absolute;
   z-index: -1;
