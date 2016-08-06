@@ -16,9 +16,8 @@ body {
   width: 100%;
 }
 
-.background-img {
-  height: 100px;
-  width: 100px;
+img.background-img {
+  width: 100%;
   position: absolute;
   z-index: -1;
 }
