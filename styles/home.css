@@ -2,3 +2,17 @@ body {
   background-color: white;
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
+
+.name-header {
+  text-align: center;
+}
+
+.interests {
+  list-style-type: none;
+}
+
+.main-background {
+  width: 100%;
+  position: fixed;
+  background-image: url('../assets/images/yosemite_background.JPG');
+}
