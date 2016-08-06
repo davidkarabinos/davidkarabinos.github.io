@@ -1,5 +1,6 @@
 body {
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  background-image:url('../assets/images/yosemite_background.JPG');
 }
 
 .name-header {
@@ -12,6 +13,4 @@ body {
 
 .main-background {
   width: 100%;
-  position: fixed;
-  background-image: url('../assets/images/yosemite_background.JPG');
 }
