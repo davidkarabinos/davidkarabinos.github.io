@@ -1,11 +1,22 @@
 body {
-  height: 100%;
   width: 100%;
   margin: 0px;
-  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  color: white;
 }
-.name-header {
+
+.name {
+  width: 280px;
   text-align: center;
+  margin: 0 auto;
+  margin-top: 340px;
+  border: 3px solid white;
+  background-color: none;
+  transition: background-color 0.5s ease;
+}
+
+.name:hover {
+  background-color: rgba(255,255,255,0.3);
 }
 
 .interests {
@@ -13,11 +24,23 @@ body {
 }
 
 .main-background {
+  position: absolute;
   width: 100%;
+  height: 100%;
 }
 
-img {
-  width: 100%;
+.main-background-tint {
   position: absolute;
-  z-index: -1;
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(255,255,255);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+img.background-img {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  z-index: -2;
 }
