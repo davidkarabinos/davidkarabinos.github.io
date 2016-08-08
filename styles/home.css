@@ -32,15 +32,16 @@ body {
 .main-background-tint {
   position: absolute;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   background-color: rgb(255,255,255);
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.75s ease;
 }
 
 img.background-img {
   width: 100%;
-  min-height: 100%;
   position: absolute;
   z-index: -2;
+  margin-left: 0px;
+  transition: width 0.75s ease, margin-left 0.75s ease, margin-top 0.75s ease;
 }
